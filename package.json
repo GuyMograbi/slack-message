@@ -6,7 +6,7 @@
   },
   "scripts": {
     "build": "docker build . -t slack-message",
-    "start": "docker run -it slack-message bash",
+    "start": "docker run -it slack-message bash"
   },
   "dependencies": {
     "@slack/client": "^4.7.0",
